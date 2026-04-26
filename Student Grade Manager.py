@@ -32,11 +32,13 @@ def calculate_average(student1):
             arbic = student1[1]
             math = student1[2]  
             science = student1[3]
+            physics = student1[4]
             average =sum(student1[1:4]) / len(student1[1:4])
             print(f"hello {students[input_name_id][0]} your your grades in the subjects are:")
             print(f"Arabic: {float(arbic)}")
             print(f"Math: {float(math)}")
             print(f"Science: {float(science)}")
+            print(f"Physics: {float(physics)}")
             print(f"Your average grade is: {average} %")
             if name != input_name_id:
                 print("ID not found.")
